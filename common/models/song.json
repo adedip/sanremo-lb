@@ -1,0 +1,35 @@
+{
+  "name": "Song",
+  "plural": "songs",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "singer": {
+      "type": "string",
+      "required": true
+    },
+    "about": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "votes": {
+      "type": "hasMany",
+      "model": "Vote",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

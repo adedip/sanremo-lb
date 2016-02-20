@@ -1,0 +1,41 @@
+{
+  "name": "Vote",
+  "plural": "votes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "song": {
+      "type": "number",
+      "required": true
+    },
+    "look": {
+      "type": "number",
+      "required": true
+    },
+    "winner": {
+      "type": "boolean",
+      "required": true
+    },
+    "comment": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "songId": {
+      "type": "belongsTo",
+      "model": "Song",
+      "foreignKey": "songId"
+    },
+    "voter": {
+      "type": "belongsTo",
+      "model": "Voter",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
