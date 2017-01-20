@@ -34,23 +34,23 @@
     "public": false
   },
   "Song": {
-    "dataSource": "postgresDs",
+    "dataSource": "db",
     "public": true
   },
   "Vote": {
-    "dataSource": "postgresDs",
+    "dataSource": "db",
     "public": true
   },
   "Voter": {
-    "dataSource": "postgresDs",
+    "dataSource": "db",
     "public": true
   },
   "UserCredential": {
-    "dataSource": "postgresDs",
+    "dataSource": "db",
     "public": true
   },
   "UserIdentity": {
-    "dataSource": "postgresDs",
+    "dataSource": "db",
     "public": true
   }
 }
