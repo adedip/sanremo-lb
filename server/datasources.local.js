@@ -6,3 +6,16 @@ module.exports = {
     url: postgresURI 
   } 
 };
+
+// {
+//   "postgresDs": {
+//     "host": "localhost",
+//     "port": "5432",
+//     "database": "sanremo_lb",
+//     "username": "andreadippolito",
+//     "password": "",
+//     "name": "postgresDs",
+//     "debug": true,
+//     "connector": "postgresql"
+//   }
+// }
