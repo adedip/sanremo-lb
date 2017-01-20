@@ -1,8 +1,4 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
-  },
   "postgresDs": {
     "host": "ec2-54-163-234-20.compute-1.amazonaws.com",
     "port": "5432",
