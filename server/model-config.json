@@ -46,11 +46,11 @@
     "public": true
   },
   "UserCredential": {
-    "dataSource": "db",
+    "dataSource": "postgresDs",
     "public": true
   },
   "UserIdentity": {
-    "dataSource": "db",
+    "dataSource": "postgresDs",
     "public": true
   }
 }

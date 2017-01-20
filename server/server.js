@@ -35,7 +35,7 @@ var passportConfigurator = new PassportConfigurator(app);
  
 passportConfigurator.init();
 passportConfigurator.setupModels({
-  userModel: app.models.User,
+  userModel: app.models.Voter,
   userIdentityModel: app.models.UserIdentity,
   userCredentialModel: app.models.UserCredential
 });
